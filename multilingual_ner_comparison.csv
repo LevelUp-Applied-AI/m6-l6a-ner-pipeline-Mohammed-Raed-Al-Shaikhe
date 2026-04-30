@@ -1,0 +1,5 @@
+Language,Model,Total_Entities,Entity_Density,No_Entity_Rate,Entity_Types,Examples
+English,spaCy_xx_ent_wiki_sm,93,7.62,0.0,"{'MISC': 15, 'PERSON': 12, 'ORG': 39, 'GPE': 27}","[('IPCC', 'MISC'), ('Sixth Assessment Report', 'MISC'), ('Celsius', 'PERSON')]"
+Arabic,spaCy_xx_ent_wiki_sm,20,2.15,0.25,"{'PERSON': 9, 'MISC': 7, 'ORG': 2, 'GPE': 2}","[('وأكد التقرير', 'PERSON'), ('وقّع الأردن', 'MISC'), ('وأكد وزير', 'PERSON')]"
+English,HF_xlm_roberta_wikiann,93,7.62,0.0,"{'PERSON': 10, 'ORG': 55, 'GPE': 28}","[('Antonio Guterres', 'PERSON'), ('COP', 'ORG'), ('COP', 'ORG')]"
+Arabic,HF_xlm_roberta_wikiann,64,6.88,0.0,"{'ORG': 33, 'GPE': 29, 'PERSON': 2}","[('الهيئة الحكومية الدولية المعنية بتغير المناخ', 'ORG'), ('الأردن', 'GPE'), ('البنك الدولي', 'ORG')]"
